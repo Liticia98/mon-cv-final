@@ -3,96 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - [Votre Nom]</title>
+    <title>CV</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="girl.jpg" alt="Photo de profil">
-        <img src="photo.jpg" alt="Photo de profil">
-        <img src="pc.jpg" alt="Photo de profil">
-        <h1>ADRAR Liticia</h1>
-        <p>Ingénieure en Informatique - Spécialité Sécurité et Réseaux</p>
-        <img src="girl.jpg" alt="Photo de profil">
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#about">À propos</a>
-            
-            </li>
-            <li><a href="#Formations">Formations</a>
-            
-            </li>
-            <li><a href="#skills">Compétences</a>
-            </li>
-            <li><a href="#experience">Expérience</a>
-        </ul>
-    </nav>
-    <main>
-        <section id="about">
-            <h2>À propos</h2>
-            <p>
-                Ingénieure en informatique, spécialisée dans l'administration réseau et la cybersécurité, je me consacre à la protection des systèmes d'information. 
-                Avec une expérience significative dans la cartographie des SI et la mise en place de solutions sécurisées, je cherche à contribuer à des projets de sécurité à grande échelle.
-            </p>
-        </section>
-        <section id="Formations">
-            <h2>Formations</h2>
-            
-        </section>
-        <section id="skills">
-            <h2>Compétences</h2><ul>
-                <li><strong>Cybersécurité :</strong> Analyse des vulnérabilités, gestion des incidents, sécurisation des infrastructures.</li>
-                <li><strong>Administration réseau :</strong> Configuration et gestion des équipements réseau (switch, routeurs, pare-feu).</li>
-                <li><strong>Développement web :</strong> Maîtrise de HTML, CSS, JavaScript, intégration de frameworks comme Bootstrap.</li>
-                <li><strong>ERP :</strong> Intégration et personnalisation d'ERP, notamment Odoo.</li>
-                <li><strong>Outils et langages :</strong> Python, Bash, SQL, Git.</li>
-                <li><strong>Systèmes d'exploitation :</strong> Administration Linux (Debian, Ubuntu), Windows Server.</li>
-                <li><strong>Soft skills :</strong> Capacité à résoudre des problèmes, travail en équipe, gestion de projet.</li>
-                <li><strong>Langues :</strong> Français (natif), Anglais (professionnel).</li>
+    <div class="container">
+        <div class="left">
+            <div class="photo">
+                <img src="photo.jpg" alt="Votre Photo" />
+                <h1>ADRAR LITICIA</h1>
+            </div>
+            <ul class="menu">
+                <li onclick="showSection('about')">À Propos</li>
+                <li onclick="showSection('education')">Formations Académiques</li>
+                <li onclick="showSection('certifications')">Formations Certifiées</li>
+                <li onclick="showSection('skills')">Compétences</li>
+                <li onclick="showSection('experience')">Expériences Professionnelles</li>
+                <li onclick="showSection('projects')">Projets Réalisés</li>
+                <li onclick="showSection('associative')">Expériences Associatives</li>
+                <li onclick="showSection('languages')">Langues</li>
+                <li onclick="showSection('Contacts')">Contacts</li>
+                <li onclick="showSection('interests')">Centres d'Intérêts</li>
             </ul>
+        </div>
+        <div class="right">
+            <div id="about" class="section">
+                <h2>À Propos de Liticia ADRAR</h2>
+                <UL>Née le 06/05/1998 à AOKAS W.Béjaia (Algérie)</UL>
+                <ul>Adresse: Béjaia -Alger </ul>
+                
+                <p>"Je suis une ingénieure en informatique spécialisée dans l'administration et la sécurité des
+                     réseaux diplomée en 2022 par L'université Abd Rahmane MIra de Béjaia (Algérie), 
+                     avec une solide expérience en intégration d'ERP et en cartographie des systèmes d'information.
+                    Passionnée par la cybersécurité et toujours à l'écoute des nouvelles tendances technologiques,
+                     je vise à apporter mes compétences dans un environnement dynamique, tout en continuant à évoluer
+                    professionnellement."</p>
+            </div>
+            <div id="education" class="section">
+                <h2>Formations Académiques</h2>
+                <ul><li>Master informatique  2020-2022</li><br>
+                     Option: Administration et sécurité des réseaux <br>
+                     Université Abdrahmane Mira Béjaia <br>
+                     <li>Licence en Informatique  2017-2020</li><br>
+                    Option: Systémes Informatique <br>
+                    Université Abdrahmane Mira Béjaia <br>
+                   <li>Baccalaureat 2017 </li><br>
+                   Série: Science Expérimenttal <br>
+                   Mention: Assez Bien <br>
+                   <li>Baccalaureat 2016</li>
+                   Série: Science Expérimenttal <br>
+                   Mention: Bien <br>
+                </ul>
+            </div>
+            <div id="certifications" class="section">
+                <h2>Formations Certifiées</h2>
+               <ul><li>Cyber Sécurité Awarness</li><br>
+                délivré par: HP life <br>
+                Description:
+                <div class="image">
+                    <img src="hp.jpg" alt="Votre Photo" />
+                </div>
+                <li>Agile Project</li> <br>
+                délivré par : HP Life <br>
+                Description:  <br>
+                <li>Test de logiciel</li><br>
+                délivré par: Cursa <br>
+                Description: <br>
+                <li>HCIA Cloud Computing</li> <br>
+                délivré par: Huawei  <br>
+                Description:  <br>
+                <li>Création de site web </li> <br>
+                délivré par: ESGI  <br>
+                Description: <br>
+                <li>Développeur Java</li> <br>
+                délivré par: Amis de Java <br>
+                Description:  <br>
             
-        </section>
-        <section id="experience">
-            <h2>Expérience</h2>
-            <ul>
-                <li>
-                    <strong>Freelance - Intégration d'ERP</strong> (2024)
-                    <p>Réalisation d'un projet d'intégration d'Odoo pour une entreprise :</p>
-                    <ul>
-                        <li>Installation et configuration de l'ERP.</li>
-                        <li>Personnalisation des modules pour répondre aux besoins spécifiques.</li>
-                        <li>Formation des utilisateurs à l'utilisation du système.</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Stage - Cartographie du SI</strong> (2023)
-                    <p>Entreprise : [Nom de l'entreprise]</p>
-                    <ul>
-                        <li>Développement d'une solution de cartographie des applications et des flux réseau.</li>
-                        <li>Analyse des dépendances entre applications critiques.</li>
-                        <li>Documentation technique et présentation des résultats au comité IT.</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Projet académique - Sécurité réseau</strong> (2022)
-                    <ul>
-                        <li>Conception et déploiement d'un pare-feu sous Linux pour sécuriser un réseau local.</li>
-                        <li>Utilisation d'outils d'analyse (Wireshark) pour identifier des vulnérabilités potentielles.</li>
-                    </ul>
-                </li>
+            
             </ul>
-            </li>
-            <li><a href="#contact">Contact</a></li>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email : <a href="liticiaadrar@gmain.com">liticiaadrar@gmail.com</a></p>
-            <p>LinkedIn : <a href="www.linkedin.com/in/liticia-adrar-087693201">Mon profil linkedIn</a></p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 [ADRAR]. Tous droits réservés.</p>
-    </footer>
+            </div>
+            <div id="skills" class="section">
+                <h2>Compétences</h2>
+                <ul><li>Langages de programmation</li> <br>
+                Python & Java <br>
+               <li>Systémes d'éxploitation</li><br>
+                RockyLinux & KaliLinux <br>
+                <li>Superviseur réseaux</li> <br>
+                Wireshark <br>
+                <li>Résaux</li><br>
+                TCP /IP <br>
+                <li>Sécurité</li> <br>
+                Cisco / GNS3
+
+                </ul>
+            </div>
+            <div id="experience" class="section">
+                <h2>Expériences Professionnelles</h2>
+               <ul><li>Intégratrice Odoo Sept 2024- Avr 2025 </li> <br>
+                à L'incubateur Startup WE CAN SPACE <br>
+                <li>Créatrice de site WordPress Juin 2023- Fév 2024 </li> <br>
+                Freelance <br>
+                <li>Enseignante Vacataire Sept 2022- Juil 2023 </li> <br>
+                Chargée TD: Logique Mathématique <br>
+                Chargée Tp: Systémes Sécurité , Technologies Internet <br>
+                <li>Administratrice sécurité de systéme d'information</li> <br>
+                Stagaire à Cevital (Entreprise Agro-Alimentaire ) <br>
+                <li>Développeuse d'application DeskTop</li> <br>
+                Stagaire à Direction des Impôts <br>
+            </ul>
+            </div>
+            <div id="projects" class="section">
+                <h2>Projets Réalisés</h2>
+                <ul><li>Mise en place d'une solution de cartographie de parc 
+                    applicatif d'un systéme d'information</li> <p>Proposition d'une technique qui permet 
+                        de cartographier et d'analyser les applications métiers qui cicrcule sur 
+                        le réseaux d'un systéme d'information 
+                    </p> <br>
+                    <li>Mise en place d'un VPN site à site entre deux campus Distants</li> <br>
+                    <p>Normalisation et sécurisation du processus infrastructure en mettant en place un
+                         VPN IPsec</p> <br>
+                    <li>Application de jeux vidéos nommé 'Play & Learn'</li> <br>
+                    <p>jeux éducatif: jeuc tetris , jeux tic tac toe , jeux de mémoire , jeux 2048,
+                        jeux de snake, jeux de logique.
+                    </p>
+                </ul>
+            </div>
+            <div id="associative" class="section">
+                <h2>Expériences Associatives</h2>
+                <ul><li>AISEC</li><br>
+                <li>Hult Prize</li></ul>
+            </div>
+            <div id="languages" class="section">
+                <h2>Langues</h2>
+                <ul><li>Kabyle: Langue natale </li>
+                <li>Arabe: Lu ,écrit ,Parlé</li>
+            <li>Français: C1</li>
+        <li>Anglais: B2</li></ul>
+            </div>
+            <div id="Contacts" class="section">
+                <h2>Mes contacts</h2>
+                <p>Email : <a href="liticiaadrar@gmain.com">liticiaadrar@gmail.com</a></p>
+                <p>LinkedIn : <a href="www.linkedin.com/in/liticia-adrar-087693201">Mon profil linkedIn</a></p>
+            </div>
+            <div id="interests" class="section">
+                <h2>Centres d'Intérêts</h2>
+                <ul><li>Travail en équipe</li>
+                <li>le Sport </li>
+            <li>Cuisine</li>
+        <li>Lecture</li></ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
