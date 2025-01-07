@@ -22,6 +22,15 @@ body {
     align-items: center;
     overflow-y: auto;
 }
+.sticker {
+    font-size: 24px;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    text-align: center;
+}
 
 .photo img {
     width: 220px;
@@ -37,6 +46,27 @@ body {
     object-fit: cover;
 
 }
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+  }
+
+.framed-image {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .framed-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
 
 .menu {
     list-style: none;

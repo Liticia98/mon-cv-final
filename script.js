@@ -12,3 +12,8 @@ function showSection(sectionId) {
 document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.section').classList.add('active');
 });
+document.querySelectorAll('.framed-image').forEach(image => {
+    image.addEventListener('click', () => {
+      alert(`Vous avez cliqué sur l'image : ${image.alt}`);
+    });
+  });
